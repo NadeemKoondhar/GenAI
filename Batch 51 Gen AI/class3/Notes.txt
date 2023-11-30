@@ -1,0 +1,11 @@
+Class3 - Nov 23, 2023
+
+any means type can be anyone
+
+
+
+Assignment:
+01: Difference between unknown and any
+02: Tsconfig.json file create
+03: How to avoid running compile requests, what is TSC watch mode
+04: Assignment # 01 on class 1 need to be done now.

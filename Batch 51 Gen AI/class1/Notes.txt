@@ -1,0 +1,14 @@
+Steps for the 1st command.
+
+1. Folder without the spaces
+2. Inside it terminal
+3. code .
+4. make a file with .ts extension
+5. command: console.log("Hello World")
+6. Go to terminal: tsc filename.ts (TS will convert to JS)
+7. terminal: node filename.ts
+
+How to save automaticallyNode.js understand only the Java Script
+typescript commands will run with tsc
+terminal: tsc filename.ts (to create the Java Script File)
+

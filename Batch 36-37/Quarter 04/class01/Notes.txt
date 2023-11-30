@@ -1,0 +1,12 @@
+Francus Sherl
+
+Intelligence Vs Emotions
+
+Camera is looking at you.
+
+Task 01: Binary Classification
+1. pictures capture
+2. Face direction
+	yes or no
+	frames per second
+	Pixels 1080 X 786 (picture elements)
