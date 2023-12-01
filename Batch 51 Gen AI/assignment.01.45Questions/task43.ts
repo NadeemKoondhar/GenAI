@@ -3,23 +3,23 @@
 */
 
 const magicians: string[] = ["Maandhoo", "Kaloo Baba", "Naangoo Shaaa"]
-const copyMagicians: string[] = ["Maandhoo", "Kaloo Baba", "Naangoo Shaaa"]
-const changedMagicians: string[] = []
 
-function make_great(copyMagicians: string[]) {
-  for (let i = 0; i < copyMagicians.length; i++) {
-    changedMagicians[i] = `The Great ${copyMagicians[i]}`;
+function make_great(magicians: string[]) {
+  const great_magicians = [];
+  for (const magician of magicians) {
+    great_magicians.push(`The Great ${magician}`);
+  }
+  return great_magicians;
+}
+
+function show_magicians(magicians: string[]) {
+  for (const magician of magicians) {
+    console.log(magician);
   }
 }
 
-make_great(copyMagicians); // Modify the array of magicians
+const original_magicians: string[] = [...magicians]; // Create a copy of the original array
 
-function show_magicians(magicians: string[]){
-  for (const magician of magicians) {
-    console.log(magician);
-    }
-}
-
-
-show_magicians(magicians); // Print original array of magicians
-show_magicians(changedMagicians); // Print modified array of magicians
+show_magicians(original_magicians); // Print the original array
+const great_magicians: string[] = make_great(original_magicians); // Modify and return a new array
+show_magicians(great_magicians); // Print the modified array
