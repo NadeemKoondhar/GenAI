@@ -1,0 +1,3 @@
+Assignments:
+01 Can we give give a var having some value as an argument to any function? Do and learn.
+02 AI was helping Sir Hamza in Program typing.
