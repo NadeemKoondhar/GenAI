@@ -1,0 +1,6 @@
+Search and work on: How to save the tensorflow model and reuse it?
+Search and work on: How to blur from scratch
+How to blur my beared as well with face in liveDetect project.
+Read: Deep Learning with Pandas - Chap 2
+
+
