@@ -1,25 +1,16 @@
-/*Task # 43: Unchanged Magicians: Start with your work from Exercise 40. Call the function make_great() with a copy of the array of magicians’ names. Because the original array will be unchanged, return the new array and store it in a separate array. Call show_magicians() with each array to show that you have one array of the original names and one array with the Great added to each magician’s name.
+/*Task # 44: Sandwiches: Write a function that accepts a array of items a person wants on a sandwich. The function should have one parameter that collects as many items as the function call provides, and it should print a summary of the sandwich that is being ordered. Call the function three times, using a different number of arguments each time.
 
 */
 
-const magicians: string[] = ["Maandhoo", "Kaloo Baba", "Naangoo Shaaa"]
-
-function make_great(magicians: string[]) {
-  const great_magicians = [];
-  for (const magician of magicians) {
-    great_magicians.push(`The Great ${magician}`);
+function orderedSandwich (...items: string[]): void {
+  console.log(`You have ordered a Sandwich with `);
+  for (const item of items) {
+    console.log(`- ${item}`);
   }
-  return great_magicians;
+  console.log(`\nEnjoy the healthy and tasty Sandwich assembled just for you\n`);
+  
 }
 
-function show_magicians(magicians: string[]) {
-  for (const magician of magicians) {
-    console.log(magician);
-  }
-}
-
-const original_magicians: string[] = [...magicians]; // Create a copy of the original array
-
-show_magicians(original_magicians); // Print the original array
-const great_magicians: string[] = make_great(original_magicians); // Modify and return a new array
-show_magicians(great_magicians); // Print the modified array
+orderedSandwich(`Cheese`, `Peper`, `Salad`, `Chicken shahlick`)
+orderedSandwich(`Cheesy Bread`, `Peper`, `Garlic`, `Spicy Chicken shahlick`)
+orderedSandwich(`Cheesy Bread`, `Chili Sauce`, `Tomato Ketchup`, `Peper`, `Garlic`, `Spicy Chicken shahlick`, `Chicken Spread`)
