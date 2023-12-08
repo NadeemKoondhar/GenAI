@@ -2,3 +2,15 @@
 
 */
 
+function buildCar(manufacturer: string, model: string, ...options: any[]): {} {
+  const car = { manufacturer, model };
+  for (const option of options) {
+    const [key, value] = option;
+    car[key] = value;
+  }
+  return car;
+}
+
+const myCar = buildCar("Tesla", "Model S", "color", "red", "feature", "autopilot");
+
+console.log(myCar);
