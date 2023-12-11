@@ -1,13 +1,16 @@
-Search and work on: How to save the tensorflow model and reuse it?
-Search and work on: How to blur from scratch
-How to blur my beared as well with face in liveDetect project.
-Read: Deep Learning with Pandas - Chap 2
-Explore a library to save the captured cam video as video
-Work on my dvr real time streaming photo protocol - RSTP Protocol 
-Video Bluring Editing
-Basic Concepts of Computer Vision
+Camera Capture using OpenCV
+Either we call an available API
+or a pretrained model like YOLO
+or fine tune a pretrained model last layers to get our result
+or we Train our own Model
 
-understand in detail the Object Detection project through Bard 
-https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/hub/tutorials/object_detection.ipynb#scrollTo=DZ18R7dWNyoU
+Supervised Machine Learning: classification, regression, sequence learning, Time Series, Series, 
 
-Machine Learning: Two importants understanding the concept and then remembering it
+
+MLs issue - if data is not given, then I can look for pretrained model, create data and train model, look for data on net, 
+train model on perfect data to 
+
+data labelling
+
+Assignment:
+Chapter 6 Reading
