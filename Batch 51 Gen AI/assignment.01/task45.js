@@ -10,5 +10,5 @@ function buildCar(manufacturer, model, ...options) {
     }
     return car;
 }
-const myCar = buildCar("Tesla", "Model S", "color", "red", "feature", "autopilot");
+const myCar = buildCar("Tesla", "Model S", ["color", "red"], ["feature", "autopilot"]);
 console.log(myCar);
