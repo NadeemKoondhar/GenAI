@@ -1,4 +1,3 @@
-"use strict";
 var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
 var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
 var fullNames = [];
@@ -7,3 +6,4 @@ for (var i = 0; i < firstNames.length; i++) {
         fullNames.push(firstNames[i] + lastNames[j]);
     }
 }
+export {};

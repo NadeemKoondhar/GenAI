@@ -1,4 +1,3 @@
-"use strict";
 // for (let a = 1; a <= 3; a++) {
 //     console.log("2", "X", a, "=", a * 2);
 // }
@@ -32,3 +31,26 @@
 // accessible otherwise
 // global scope is created if varriable is created out of the boundaries means out of function or if block etc etc
 // Modules: Import and Export the Modules
+// maintainable, reusable, independent from the errors of the program where it is imported.
+// export ways are different explore and work on those
+// export default only exports one thing, if anything else is exported it will through the error
+// import {a, b, c, f} from './service'; // service file is on sibling level of main.ts
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(f);
+import inquirer from "inquirer";
+// difference between devdependencies and dependencies
+// code in {} below is an object being given to the arguement
+let answer = await inquirer.prompt({
+    type: `input`,
+    name: `firstname`,
+    message: 'Whats your first name'
+});
+if (answer.firstname == "Hamzah") {
+    console.log(`Hello ${answer.firstname}, you are an admin`);
+}
+// console.log(answer.firstname);
+// enter your 1st num
+// enter your 2nd num
+// enter your 2nd num
