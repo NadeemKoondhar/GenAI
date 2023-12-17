@@ -1,0 +1,16 @@
+Camera Capture using OpenCV
+Either we call an available API
+or a pretrained model like YOLO
+or fine tune a pretrained model last layers to get our result
+or we Train our own Model
+
+Supervised Machine Learning: classification, regression, sequence learning, Time Series, Series, 
+
+
+MLs issue - if data is not given, then I can look for pretrained model, create data and train model, look for data on net, 
+train model on perfect data to 
+
+data labelling
+
+Assignment:
+Chapter 6 Reading
