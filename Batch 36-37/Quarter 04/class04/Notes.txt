@@ -1,16 +1,14 @@
-Camera Capture using OpenCV
-Either we call an available API
-or a pretrained model like YOLO
-or fine tune a pretrained model last layers to get our result
-or we Train our own Model
+Data augmentation
+Can we match and classify the images with comparative data.
+Comparative data, pixel to pixel match, non practical
+if a person is sitting in a place and he changes it frequently, our program has to go through a lot of work each time to classify
+Human Vision Vs Computer Vision....
+comparing the efficiency of different algorithims of Machine Learning
+Object detection, Segmentation, 
 
-Supervised Machine Learning: classification, regression, sequence learning, Time Series, Series, 
+LinkedIn Profile Update
+How to come out of the impression that I don't know enough to go on the practical level.
+Why I dont' be happy with my work? 
+Github
 
-
-MLs issue - if data is not given, then I can look for pretrained model, create data and train model, look for data on net, 
-train model on perfect data to 
-
-data labelling
-
-Assignment:
-Chapter 6 Reading
+Virtual Box, VM ware workmachine, Swapping
