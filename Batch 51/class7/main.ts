@@ -180,44 +180,81 @@
 // console.log(answer);
 
 
-type Deal1 = {
-    food: string,
-}
+// interface Deal1 {
+//     food: string,
+// }
 
 
-type Deal2 = {
-    food: string,
-    drink: string,
-}
+// type Deal2 = {
+//     food: string,
+//     drink: string,
+// }
 
-type Deal3 = {
-    food: string,
-    drink: string,
-    sweet: string,
-}
+// type Deal3 = {
+//     food: string,
+//     drink: string,
+//     sweet: string,
+// }
 
-let hamzahOrder: Deal1 = {
-    food: `Chicken`
-}
+// let hamzahOrder: Deal1 = {
+//     food: `Chicken`
+// }
 
-let ocashaOrder: Deal2 = {
-    food: `Biryani`,
-    drink: `Coke`,
-}
+// let ocashaOrder: Deal2 = {
+//     food: `Biryani`,
+//     drink: `Coke`,
+// }
 
-let bilalOrder: Deal3 = {
-    food: `Biryani`,
-    drink: `Coke`,
-    sweet: `Rasmalai`,
-}
+// let bilalOrder: Deal3 = {
+//     food: `Biryani`,
+//     drink: `Coke`,
+//     sweet: `Rasmalai`,
+// }
 
 
-hamzahOrder = bilalOrder // not throwing the error as ocashaorder has an additional order item
+// hamzahOrder = bilalOrder // not throwing the error as ocashaorder has an additional order item
 
-console.log(hamzahOrder);
+// console.log(hamzahOrder);
 
 // bilalOrder = hamzahOrder
 
 // console.log(ocashaOrder);
 
+// These two interfaces are completely
+// transferrable in a structural type system:
 
+// interface Ball {
+//     diameter: number;
+// }
+
+// interface Sphere {
+//     diameter: number;
+// }
+
+// let ball: Ball = { diameter: 10 };
+// let sphere: Sphere = { diameter: 20 };
+
+// sphere = ball;
+// ball = sphere;
+
+// // If we add in a type which structurally contains all of
+// // the members of Ball and Sphere, then it also can be
+// // set to be a ball or sphere.
+
+// interface Tube {
+// diameter: number;
+// length: number;
+// }
+
+// let tube: Tube = { diameter: 12, length: 3 };
+
+// //tube = ball;//Error
+// ball = tube;
+
+// tube = ball
+
+// interface Ball {
+//     diameter: number,
+// }
+
+// let ball: Ball = {diameter = 10, radius = 2}

@@ -18,3 +18,20 @@ Narrowing Methods using the Union Literals
 if we go to a restaurant and ask for a certain categorry of food they will pressent the respective menu
 union reduces the function properties to common only
 But when we assingned a number then typescript only shows the properties of the numbers
+
+Not understandable (Narrowing Methods using the if function)
+
+Math.random()
+
+step05a_objects
+accesing an object is possible via . and [].
+
+step05b_objects Aliased
+
+
+Assignment: Upload your calculator on NPM
+
+stale Object and Fresh Object
+Stale object ignore the extra property provision
+Fresh object don't allow the extra property provision
+Curly brackets show a fresh object
